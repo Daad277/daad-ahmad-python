@@ -1,6 +1,13 @@
 import random
 import time
 
+
+# ANSI kleuren voor feedback
+GREEN = "\033[32m"
+YELLOW = "\033[93m"
+RESET = "\033[0m"
+
+
 #welkom
 print ("Welkom in de game")
 naam = input("Voer uw naam in: ")
