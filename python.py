@@ -9,7 +9,7 @@ RESET = "\033[0m"
 # Welkom
 print("Welkom in het game!")
 naam = input("Voer uw naam in: ")
-print(f"Hallo {naam}, laten we starten!")
+print("Hallo,"+naam+" laten we starten!")
 
 # Moeilijkheid kiezen
 print("Kies een moeilijkheid:")
