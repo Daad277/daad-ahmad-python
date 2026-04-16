@@ -40,10 +40,9 @@ while opnieuw == "ja":
     start_tijd = time.time()
 
     while True:
-        # Input van speler en lengte check
         gok = input(f"Raad de {code_lengte}-cijfer code: ")
         if len(gok) != code_lengte or not gok.isdigit():
-            print(f"Voer exact {code_lengte} cijfers in!")
+            print("\033[91mVoer exact {code_lengte} cijfers in!\033[0m")
             continue
 
         pogingen += 1
